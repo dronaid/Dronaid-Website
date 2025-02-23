@@ -35,8 +35,20 @@ function make_active(){
 
 // Team inner section change team comp
 
+function show_team24_25(){
+	make_active();
+	document.getElementById("team24-25").style.display = "block";
+	document.getElementById("team23-24").style.display = "none";
+	document.getElementById("team22-23").style.display = "none";
+	document.getElementById("team21-22").style.display = "none";
+	document.getElementById("team20-21").style.display = "none";
+	document.getElementById("team19-20").style.display = "none";
+	document.getElementById("team17-18").style.display = "none";
+}
+
 function show_team23_24(){
 	make_active();
+	document.getElementById("team24-25").style.display = "none";
 	document.getElementById("team23-24").style.display = "block";
 	document.getElementById("team22-23").style.display = "none";
 	document.getElementById("team21-22").style.display = "none";
@@ -47,6 +59,7 @@ function show_team23_24(){
 
 function show_team22_23(){
 	make_active();
+	document.getElementById("team24-25").style.display = "none";
 	document.getElementById("team23-24").style.display = "none";
 	document.getElementById("team22-23").style.display = "block";
 	document.getElementById("team21-22").style.display = "none";
@@ -57,6 +70,7 @@ function show_team22_23(){
 
 function show_team21_22(){
 	make_active();
+	document.getElementById("team24-25").style.display = "none";
 	document.getElementById("team23-24").style.display = "none";
 	document.getElementById("team22-23").style.display = "none";
 	document.getElementById("team21-22").style.display = "block";
@@ -67,6 +81,7 @@ function show_team21_22(){
 
 function show_team20_21(){
 	make_active();
+	document.getElementById("team24-25").style.display = "none";
 	document.getElementById("team23-24").style.display = "none";
 	document.getElementById("team22-23").style.display = "none";
 	document.getElementById("team21-22").style.display = "none";
@@ -77,6 +92,7 @@ function show_team20_21(){
 
 function show_team19_20(){
 	make_active();
+	document.getElementById("team24-25").style.display = "none";
 	document.getElementById("team23-24").style.display = "none";
 	document.getElementById("team22-23").style.display = "none";
 	document.getElementById("team21-22").style.display = "none";
@@ -87,6 +103,7 @@ function show_team19_20(){
 
 function show_team17_18(){
 	make_active();
+	document.getElementById("team24-25").style.display = "none";
 	document.getElementById("team23-24").style.display = "none";
 	document.getElementById("team22-23").style.display = "none";
 	document.getElementById("team21-22").style.display = "none";
